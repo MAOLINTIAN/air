@@ -1,0 +1,74 @@
+	@charset "utf-8";
+	body {
+		font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+		color: #666;
+	}
+	
+	#myCarousel {
+		margin: 50px 0 0 0;
+	}
+	
+	.carousel-inner img {
+		margin: 0 auto;
+	}
+	
+	.row {
+		height: 45px;
+	}
+	/*自定义css样式*/
+	
+	.dropdown-menu {
+		background-color: rgb(34, 34, 34);
+	}
+	
+	.dropdown-menu> li> a {
+		color: white;
+	}
+
+	
+	pre {
+		white-space: pre-wrap;
+		/* css-3 */
+		white-space: -moz-pre-wrap;
+		/* Mozilla, since 1999 */
+		white-space: -pre-wrap;
+		/* Opera 4-6 */
+		white-space: -o-pre-wrap;
+		/* Opera 7 */
+		word-wrap: break-word;
+		/* Internet Explorer 5.5+ */
+	}
+	
+
+
+
+
+	@media only screen and (min-width:1366px) {
+	   .map{
+		   width:1370px;
+		   height:850px;
+		   margin-left:-1px;
+		   margin-top:48px;
+		}
+	}
+	
+	@media only screen and (min-width:1440px) {
+	  .map{
+		   width:1445px;
+		   height:850px;
+		   margin-left:-1px;
+		   margin-top:50px;
+		}
+	}
+	
+	@media only screen and (min-width:1600px) {
+		
+	
+		.map{
+		   width:1600px;
+		   height:719px;
+		   margin-left:0px;
+		   margin-top:51px;
+		   
+		}
+	}

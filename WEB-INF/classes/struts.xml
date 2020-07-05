@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+     
+<struts>
+	 <package name="Air" extends="json-default">
+	 <action name="ActionCityAddress" class="action.ActionCityAddress" method="getAlladdress"></action>
+	 <action name="ActionCityTop" class="action.ActionCityAddress" method="getTopaddress"></action>
+	 <action name="ActionCityMin" class="action.ActionCityAddress" method="getMinaddress"></action>
+	 <action name="Actiondatamonth" class="action.ActionCityAddress" method="getdatabymonth"></action>
+	 <action name="Actioneveryday" class="action.ActionCityAddress" method="geteveryday"></action>
+	 
+	 </package>
+	
+</struts>
